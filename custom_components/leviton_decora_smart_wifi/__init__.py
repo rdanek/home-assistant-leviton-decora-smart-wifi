@@ -353,6 +353,8 @@ class LevitonEntity(CoordinatorEntity):
         unique_id = self.residence.id if self.residence else None
         if self.device:
             unique_id = self.device.mac
+            if not unique_id or unique_id.lower() == "none":
+                unique_id = self.device.serial
         if self.activity:
             return f"{unique_id}-{self.activity.id}"
         if self.schedule:
