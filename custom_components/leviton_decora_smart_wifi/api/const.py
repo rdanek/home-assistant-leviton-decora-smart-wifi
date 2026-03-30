@@ -218,6 +218,17 @@ SUPPORTED_DEVICES = [
         DEVICE_GENERATION: DeviceGeneration.TWO,
     },
     {
+        DEVICE_MODEL: "DN6HD",
+        DEVICE_TYPE: [DeviceType.SWITCH],
+        DEVICE_GENERATION: DeviceGeneration.TWO,
+    },
+    {
+        DEVICE_MODEL: "DN15S",
+        DEVICE_TYPE: [DeviceType.SWITCH],
+        DEVICE_GENERATION: DeviceGeneration.TWO,
+    },
+
+    {
         DEVICE_MODEL: "D23LP",
         DEVICE_TYPE: [DeviceType.LIGHT],
         DEVICE_GENERATION: DeviceGeneration.TWO,
